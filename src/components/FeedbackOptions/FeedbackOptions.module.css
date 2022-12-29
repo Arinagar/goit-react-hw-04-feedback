@@ -1,0 +1,43 @@
+h2 {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttons_list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  border: none;
+  margin: 2vw;
+  color: #2a2a2a;
+  font-weight: 700;
+  border-radius: 25px;
+  padding: 12px 24px 12px 24px;
+  cursor: pointer;
+}
+button:hover,
+button.focus {
+  outline: 0;
+  box-shadow: 0 0px 0px 4px #f16775;
+}
+
+.good {
+  color: white;
+  background-color: green;
+  text-transform: uppercase;
+}
+
+.neutral {
+  color: white;
+  background-color: grey;
+  text-transform: uppercase;
+}
+
+.bad {
+  color: white;
+  background-color: rgb(205, 16, 16);
+  text-transform: uppercase;
+}
